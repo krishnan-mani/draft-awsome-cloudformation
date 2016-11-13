@@ -5,3 +5,4 @@ templates:
         - repository-environments
   - jenkins-instance-profile
   - jenkins
+  - public-dns

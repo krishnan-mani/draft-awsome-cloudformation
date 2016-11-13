@@ -35,3 +35,9 @@ To ensure changes are executed in a controlled fashion.
 
 [jenkins-instance-profile]
 [jenkins]
+
+As collaborators,
+We want to deliver changes in a controlled fashion to resources on the AWS account,
+So we can multiply our efforts!
+  - setup DNS domains, so DNS names can be setup.
+  
