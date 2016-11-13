@@ -272,7 +272,7 @@
         ]
       }
     },
-    "jenkinsDnsName": {
+    "JenkinsDnsName": {
       "Description": "DNS name to (the load balancer serving) Jenkins",
       "Value": {
         "Fn::GetAtt": [
