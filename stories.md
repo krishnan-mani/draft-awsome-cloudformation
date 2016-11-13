@@ -28,3 +28,10 @@ I want to obtain access to the version control repositories,
 To collaborate via source artifacts published to the repository.
 
 [collaborate-on-repositories]
+
+As an administrator,
+I want to setup Continuous Integration (using Jenkins)
+To ensure changes are executed in a controlled fashion.
+
+[jenkins-instance-profile]
+[jenkins]

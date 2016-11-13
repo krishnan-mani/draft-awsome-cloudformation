@@ -1,0 +1,10 @@
+{
+  "name": "jenkins",
+  "hasParameters": true,
+  "contexts": {
+    "workshop": {
+      "region": "ap-south-1",
+      "action": "create"
+    }
+  }
+}

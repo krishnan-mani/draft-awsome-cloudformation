@@ -1,0 +1,18 @@
+[
+  {
+    "ParameterKey": "VpcId",
+    "ParameterValue": "vpc-ea2b8e83"
+  },
+  {
+    "ParameterKey": "SubnetIds",
+    "ParameterValue": "subnet-bfde7fd6,subnet-8b6482c6"
+  },
+  {
+    "ParameterKey": "jenkinsInstanceProfileId",
+    "ParameterValue": "jenkins-instance-profile-jenkinsInstanceProfile-1J8SW9WNIX3MW"
+  },
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "dev"
+  }
+]

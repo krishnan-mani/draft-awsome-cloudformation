@@ -1,3 +1,7 @@
 path: evolution
 templates:
-  - collaborate-on-repositories
+  - collaborate-on-repositories:
+      contexts:
+        - repository-environments
+  - jenkins-instance-profile
+  - jenkins
