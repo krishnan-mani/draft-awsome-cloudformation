@@ -271,6 +271,20 @@
           ]
         ]
       }
+    },
+    "jenkinsDnsName": {
+      "Description": "DNS name to (the load balancer serving) Jenkins",
+      "Value": {
+        "Fn::GetAtt": [
+          "jenkinsLoadBalancer",
+          "DNSName"
+        ]
+      },
+      "Export": {
+        "Name": {
+          "Fn::Sub": "{AWS::StackName}-DnsName"
+        }
+      }
     }
   }
 }
