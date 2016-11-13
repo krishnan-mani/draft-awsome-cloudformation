@@ -282,7 +282,7 @@
       },
       "Export": {
         "Name": {
-          "Fn::Sub": "{AWS::StackName}-DnsName"
+          "Fn::Sub": "JenkinsDnsName"
         }
       }
     }
