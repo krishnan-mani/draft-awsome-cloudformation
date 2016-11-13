@@ -1,3 +1,6 @@
 domains:
-  - workshop.devopsanand.com (live)
+  - workshop.devopsanand.com
+
+dns-names:
+  - jenkins.workshop.devopsanand.com
 
