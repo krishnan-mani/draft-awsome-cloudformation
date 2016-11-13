@@ -1,0 +1,14 @@
+{
+  "name": "create-repository",
+  "hasParameters": true,
+  "contexts": {
+    "repository-environments": {
+      "region": "us-east-1",
+      "action": "create"
+    },
+    "repository-environments-live": {
+      "region": "us-east-1",
+      "action": "create"
+    }
+  }
+}
