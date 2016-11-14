@@ -4,7 +4,7 @@ As an account owner,
 I want to create an IAM group with privileges to administer the account,
 To ensure administrative operations on the account are performed only by users in such group.
 
-[create-admin-group]
+* [create-admin-group]
 
 ### Story-2
 As an account owner,
@@ -21,8 +21,8 @@ As an administrator,
 I want to generate the access credentials needed to act on the AWS account for the user,
 To ensure authentication and authorization are in place to perform administrative actions.
 
-[iam-password-policy]
-[create-admin-user]
+* [iam-password-policy]
+* [create-admin-user]
 
 ### Story-5
 As an administrator, 
@@ -34,15 +34,15 @@ As a contributor,
 I want to obtain access to the version control repositories,
 To collaborate via source artifacts published to the repository.
 
-[collaborate-on-repositories]
+* [collaborate-on-repositories]
 
 ### Story-7
 As an administrator,
 I want to setup Continuous Integration (using Jenkins)
 To ensure changes are executed in a controlled fashion.
 
-[jenkins-instance-profile]
-[jenkins]
+* [jenkins-instance-profile]
+* [jenkins]
 
 ### Story-8
 As collaborators,
@@ -51,10 +51,10 @@ So we can multiply our efforts!
   - setup DNS domains, so DNS names can be setup.
   - setup application environment(s), to deploy applications.
 
-[public-dns]
-[dns-names]
-[app-01]
-[app-01-environments]
+* [public-dns]
+* [dns-names]
+* [app-01]
+* [app-01-environments]
 
 ### Story-9 
 
