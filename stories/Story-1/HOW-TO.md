@@ -1,5 +1,8 @@
 
-- This workshop assumes and recommends that you begin with a new AWS account
+* This workshop recommends that you begin with a new AWS account, but you can try this on an account that you have used earlier
+* Perform the steps below as an account owner or IAM user that has administrative privileges
+* It is advisable that you choose to use a single AWS region to create resources, such as Mumbai ("ap-south-1"). Some resources (CodeCommit repositories) can only be created in Virginia ("us-east-1") or Ohio ("us-east-2") regions
+
 - Upload and create CloudFormation stacks using the templates in the "evolution" folder
 - For story-1, 
 
