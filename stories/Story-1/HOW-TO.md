@@ -11,9 +11,10 @@
   - You configure a profile for the use of these credentials with the AWS CLI on your workstation
 
 ```
-$ aws configure --profile Veerur@workshop
+$ aws configure --profile Jay@workshop
 
-# Paste the 'AWS Access Key Id' and 'AWS Secret Access Key', choose a 'Default region name' (such as "ap-south-1") and 'Default output format' (such as "json")
+# Paste the 'AWS Access Key Id' and 'AWS Secret Access Key' from the downloaded credentials, 
+# choose a 'Default region name' (such as "ap-south-1") and 'Default output format' (such as "json")
 ```
 
   
