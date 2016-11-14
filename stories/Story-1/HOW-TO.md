@@ -6,21 +6,8 @@
 - Upload and create CloudFormation stacks using the templates in the "evolution" folder
 - For story-1:
   - You create an IAM group that has Administrative user privileges (using template in "create-admin-group")
-  - You create a user that is a member of this IAM group (using template in "create-admin-user")
-  - You then generate and download credentials (access key id + secret access key) for the user (by hand using the AWS Management Console)
-  - You configure a profile for the use of these credentials with the AWS CLI on your workstation
 
-```
-$ aws configure --profile Jay@workshop
-
-# Paste the 'AWS Access Key Id' and 'AWS Secret Access Key' from the downloaded credentials, 
-# choose a 'Default region name' (such as "ap-south-1") and 'Default output format' (such as "json")
-```
-
-  
-
-The CloudFormation templates must be applied to create stacks in the following order:
+The CloudFormation templates to be used:  
  - create-admin-group
- - create-admin-user
 
-The stack "create-admin-user" needs a Parameter that is the name of the "created-admin-group" stack
+The stack "create-admin-user" needs a Parameter that is the name of the "create-admin-group" stack
