@@ -1,4 +1,4 @@
-- We follow a convention to organise the CloudFormation template files and related artifacts. These are as follows
+- We follow some conventions to organise the CloudFormation template files and related artifacts. These are as follows
   - All artifacts for one kind of CloudFormation stack (such as "collaborate-on-repositories") are located within a single folder
   - The following files are located within the folder for each stack
     - template.json: CloudFormation template
